@@ -27,6 +27,10 @@ PRODUCT_COPY_FILES += \
     vendor/lumine-extras/config/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.apps.dialer.call_recording_audio.features.xml
 endif
 
+# Charger
+PRODUCT_PACKAGES += \
+    product_charger_res_images
+
 # Fonts
 PRODUCT_COPY_FILES += \
     vendor/lumine-extras/fonts/GoogleSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Regular.ttf \
