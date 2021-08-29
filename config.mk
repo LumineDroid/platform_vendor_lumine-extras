@@ -29,3 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/lumine-extras/fonts/GoogleSans-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Bold.ttf \
     vendor/lumine-extras/fonts/GoogleSans-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-BoldItalic.ttf \
     vendor/lumine-extras/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+
+# Overlay
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lumine-extras/overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/lumine-extras/overlay/common
