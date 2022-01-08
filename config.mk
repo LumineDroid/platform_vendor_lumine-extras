@@ -49,6 +49,9 @@ PRODUCT_COPY_FILES += \
     vendor/lumine-extras/prebuilt/common/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
 
 # Overlay
+PRODUCT_PACKAGES += \
+    AndroidBlackThemeOverlay
+
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lumine-extras/overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/lumine-extras/overlay/common
 
