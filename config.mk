@@ -51,3 +51,6 @@ PRODUCT_COPY_FILES += \
 # Overlay
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/lumine-extras/overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/lumine-extras/overlay/common
+
+# ThemeIcons
+$(call inherit-product, vendor/google/overlays/ThemeIcons/config.mk)
