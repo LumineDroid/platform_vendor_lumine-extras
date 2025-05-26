@@ -76,7 +76,8 @@ PRODUCT_COPY_FILES += \
     vendor/lumine-extras/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
 
 # GApps
-$(call inherit-product, vendor/gms/products/gms.mk)
+$(call inherit-product, vendor/google/gms/config.mk)
+$(call inherit-product, vendor/google/pixel/config.mk)
 
 # Google Photos Pixel Exclusive XML
 PRODUCT_COPY_FILES += \
